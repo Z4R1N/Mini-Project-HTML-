@@ -1,0 +1,36 @@
+body {
+  margin:0;
+  background:#75867d73;
+  font-family: 'Baloo Chettan 2', sans-serif;
+}
+
+#FirstRow {
+  margin: 20px 20px 10px 20px;
+  list-style-type: none;
+}
+.Logo {
+  height: 80px;
+  margin-right: 5px;
+  background-color: #777;
+}
+.Login {
+  height: 80px;
+  margin-left: 5px;
+  background-color: #777;
+}
+
+.Logo .Corner{
+  float: left;
+  transform: rotate(0deg);
+  height: 100%;
+  width: auto;
+  position: absolute;
+}
+.Logo .Arrow{
+  float: right;
+  transform: rotate(0deg);
+  height: 100%;
+  width: 95%;
+  position: absolute;
+  opacity: 0.8;
+}
